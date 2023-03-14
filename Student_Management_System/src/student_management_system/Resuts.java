@@ -14,6 +14,7 @@ import java.util.Vector;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
@@ -104,5 +105,9 @@ public class Resuts {
         });
         btnLoadData.setBounds(175, 236, 89, 23);
         frame.getContentPane().add(btnLoadData);
+    }
+
+    void show() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 }

@@ -4,7 +4,6 @@
  */
 package student_management_system;
 
-import com.mysql.cj.xdevapi.Result;
 import javax.swing.JOptionPane;
 import java.sql.*;
 

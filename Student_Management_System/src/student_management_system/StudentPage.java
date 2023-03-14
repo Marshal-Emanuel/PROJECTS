@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
 package student_management_system;
-
+import javax.swing.JOptionPane;
 /**
  *
  * @author Admin
@@ -495,10 +495,12 @@ public class StudentPage extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_tfSearchBookActionPerformed
 
+    @SuppressWarnings("deprecation")
     private void btnViewReslutsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnViewReslutsActionPerformed
         // TODO add your handling code here:
         Resuts rst = new Resuts();
         rst.show();
+       
     }//GEN-LAST:event_btnViewReslutsActionPerformed
 
     /**
