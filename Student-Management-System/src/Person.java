@@ -1,4 +1,4 @@
-public class Person {
+/*public class Person {
     private String name;
     private String email;
     private String password;
@@ -20,4 +20,4 @@ public class Person {
     public boolean verifyLogin(String email, String password) {
         return this.email.equals(email) && this.password.equals(password);
     }
-}
+}*/

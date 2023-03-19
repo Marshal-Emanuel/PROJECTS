@@ -1,32 +1,46 @@
 public class Lecturer {
     private int lecturerId;
-    private String name;
-    private String programName;
-    private int programId;
-    private String unit1Name;
-    private int unit1Id;
-    private String unit2Name;
-    private int unit2Id;
-    private String unit3Name;
-    private int unit3Id;
-    private String password;
+    private String lname;
+    private String progName;
+    private String progId;
+    private String unit1name;
+    private String unit1id;
+    private String unit2name;
+    private String unit2id;
+    private String unit3name;
+    private String unit3id;
+    private String lpassword;
+    
 
-    public Lecturer(int lecturerId, String name, String programName, int programId, String unit1Name, int unit1Id,
-                    String unit2Name, int unit2Id, String unit3Name, int unit3Id, String password) {
+
+    public Lecturer(int lecturerId, String lname, String progName, String progId, String unit1name, String unit1id,
+            String unit2name, String unit2id, String unit3name, String unit3id, String lpassword) {
         this.lecturerId = lecturerId;
-        this.name = name;
-        this.programName = programName;
-        this.programId = programId;
-        this.unit1Name = unit1Name;
-        this.unit1Id = unit1Id;
-        this.unit2Name = unit2Name;
-        this.unit2Id = unit2Id;
-        this.unit3Name = unit3Name;
-        this.unit3Id = unit3Id;
-        this.password = password;
+        this.lname = lname;
+        this.progName = progName;
+        this.progId = progId;
+        this.unit1name = unit1name;
+        this.unit1id = unit1id;
+        this.unit2name = unit2name;
+        this.unit2id = unit2id;
+        this.unit3name = unit3name;
+        this.unit3id = unit3id;
+        this.lpassword = lpassword;
     }
 
-    // getters and setters
+
+
+
+     // getters and setters
+
+
+
+
+
+    
+
+
+
 
     public int getLecturerId() {
         return lecturerId;
@@ -37,99 +51,110 @@ public class Lecturer {
     }
 
     public String getName() {
-        return name;
+        return lname;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setName(String lname) {
+        this.lname = lname;
     }
 
-    public String getProgramName() {
-        return programName;
+    public String getProgName() {
+        return progName;
     }
 
-    public void setProgramName(String programName) {
-        this.programName = programName;
+    public void setProgName(String progName) {
+        this.progName = progName;
     }
 
-    public int getProgramId() {
-        return programId;
+    public String getProgId() {
+        return progId;
     }
 
-    public void setProgramId(int programId) {
-        this.programId = programId;
+    public void setProgid(String progid) {
+        this.progId = progid;
     }
 
-    public String getUnit1Name() {
-        return unit1Name;
+    public String getUnit1name() {
+        return unit1name;
     }
 
-    public void setUnit1Name(String unit1Name) {
-        this.unit1Name = unit1Name;
+    public void setUnit1name(String unit1name) {
+        this.unit1name = unit1name;
     }
 
-    public int getUnit1Id() {
-        return unit1Id;
+    public String getUnit1id() {
+        return unit1id;
     }
 
-    public void setUnit1Id(int unit1Id) {
-        this.unit1Id = unit1Id;
+    public void setUnit1id(String unit1id) {
+        this.unit1id = unit1id;
     }
 
-    public String getUnit2Name() {
-        return unit2Name;
+    public String getUnit2name() {
+        return unit2name;
     }
 
-    public void setUnit2Name(String unit2Name) {
-        this.unit2Name = unit2Name;
+    public void setUnit2name(String unit2name) {
+        this.unit2name = unit2name;
     }
 
-    public int getUnit2Id() {
-        return unit2Id;
+    public String getUnit2id() {
+        return unit2id;
     }
 
-    public void setUnit2Id(int unit2Id) {
-        this.unit2Id = unit2Id;
+    public void setUnit2id(String unit2id) {
+        this.unit2id = unit2id;
     }
 
-    public String getUnit3Name() {
-        return unit3Name;
+    public String getUnit3name() {
+        return unit3name;
     }
 
-    public void setUnit3Name(String unit3Name) {
-        this.unit3Name = unit3Name;
+    public void setUnit3name(String unit3name) {
+        this.unit3name = unit3name;
     }
 
-    public int getUnit3Id() {
-        return unit3Id;
+    public String getUnit3id() {
+        return unit3id;
     }
 
-    public void setUnit3Id(int unit3Id) {
-        this.unit3Id = unit3Id;
+    public void setUnit3id(String unit3id) {
+        this.unit3id = unit3id;
     }
 
     public String getPassword() {
-        return password;
+        return lpassword;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setPassword(String lpassword) {
+        this.lpassword = lpassword;
     }
 
-    public boolean login(String name, String password) {
+    public boolean login(String lname, String lpassword) {
         // Implement login logic here
-        return this.name.equals(name) && this.password.equals(password);
+        return this.lname.equals(lname) && this.lpassword.equals(lpassword);
     }
 
            public void enterMarks(Student student, Marks marks) {
-            if (student.getProgramId() != programId) {
+            if (student.getProgramId() != progId) {
                 System.out.println("Cannot enter marks for student in a different program");
                 return;
             }
-            if (marks.getUnit1Id() != unit1Id && marks.getUnit2Id() != unit2Id && marks.getUnit3Id() != unit3Id) {
+            if (marks.getUnit1Id() != unit1id && marks.getUnit2Id() != unit2id && marks.getUnit3Id() != unit3id) {
                 System.out.println("Invalid unit IDs");
                 return;
             }
             // enter marks logic here
+        }
+
+        public int getAge() {
+            return 0;
+        }
+
+
+
+
+        public String getLecturerName() {
+            return null;
         }
     }

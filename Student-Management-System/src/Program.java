@@ -1,128 +1,134 @@
 public class Program {
-    private int programId;
-    private String programName;
-    private String unit1Name;
-    private String unit1Id;
-    private String unit2Name;
-    private String unit2Id;
-    private String unit3Name;
-    private String unit3Id;
-    private String unit4Name;
-    private String unit4Id;
-    private String unit5Name;
-    private String unit5Id;
+    private String program_Name;
+    private String program_Id;
+    private String unit1_Name;
+    private String unit1_Id;
+    private String unit2_Name;
+    private String unit2_Id;
+    private String unit3_Name;
+    private String unit3_Id;
+    private String unit4_Name;
+    private String unit4_Id;
+    private String unit5_Name;
+    private String unit5_Id;
+    
+    
 
-    public Program(int programId, String programName, String unit1Name, String unit1Id, String unit2Name, String unit2Id,
-                   String unit3Name, String unit3Id, String unit4Name, String unit4Id, String unit5Name, String unit5Id) {
-        this.programId = programId;
-        this.programName = programName;
-        this.unit1Name = unit1Name;
-        this.unit1Id = unit1Id;
-        this.unit2Name = unit2Name;
-        this.unit2Id = unit2Id;
-        this.unit3Name = unit3Name;
-        this.unit3Id = unit3Id;
-        this.unit4Name = unit4Name;
-        this.unit4Id = unit4Id;
-        this.unit5Name = unit5Name;
-        this.unit5Id = unit5Id;
+    public Program(String program_Name, String program_Id, String unit1_Name, String unit1_Id, String unit2_Name,
+            String unit2_Id, String unit3_Name, String unit3_Id, String unit4_Name, String unit4_Id, String unit5_Name,
+            String unit5_Id) {
+        this.program_Name = program_Name;
+        this.program_Id = program_Id;
+        this.unit1_Name = unit1_Name;
+        this.unit1_Id = unit1_Id;
+        this.unit2_Name = unit2_Name;
+        this.unit2_Id = unit2_Id;
+        this.unit3_Name = unit3_Name;
+        this.unit3_Id = unit3_Id;
+        this.unit4_Name = unit4_Name;
+        this.unit4_Id = unit4_Id;
+        this.unit5_Name = unit5_Name;
+        this.unit5_Id = unit5_Id;
     }
 
-    // getters and setters
-
-    public int getProgramId() {
-        return programId;
+    public String getProgram_Name() {
+        return program_Name;
     }
 
-    public void setProgramId(int programId) {
-        this.programId = programId;
+    public void setProgram_Name(String program_Name) {
+        this.program_Name = program_Name;
     }
 
-    public String getProgramName() {
-        return programName;
+    public String getProgram_Id() {
+        return program_Id;
     }
 
-    public void setProgramName(String programName) {
-        this.programName = programName;
+    public void setProgram_Id(String program_Id) {
+        this.program_Id = program_Id;
     }
 
-    public String getUnit1Name() {
-        return unit1Name;
+    public String getUnit1_Name() {
+        return unit1_Name;
     }
 
-    public void setUnit1Name(String unit1Name) {
-        this.unit1Name = unit1Name;
+    public void setUnit1_Name(String unit1_Name) {
+        this.unit1_Name = unit1_Name;
     }
 
-    public String getUnit1Id() {
-        return unit1Id;
+    public String getUnit1_Id() {
+        return unit1_Id;
     }
 
-    public void setUnit1Id(String unit1Id) {
-        this.unit1Id = unit1Id;
+    public void setUnit1_Id(String unit1_Id) {
+        this.unit1_Id = unit1_Id;
     }
 
-    public String getUnit2Name() {
-        return unit2Name;
+    public String getUnit2_Name() {
+        return unit2_Name;
     }
 
-    public void setUnit2Name(String unit2Name) {
-        this.unit2Name = unit2Name;
+    public void setUnit2_Name(String unit2_Name) {
+        this.unit2_Name = unit2_Name;
     }
 
-    public String getUnit2Id() {
-        return unit2Id;
+    public String getUnit2_Id() {
+        return unit2_Id;
     }
 
-    public void setUnit2Id(String unit2Id) {
-        this.unit2Id = unit2Id;
+    public void setUnit2_Id(String unit2_Id) {
+        this.unit2_Id = unit2_Id;
     }
 
-    public String getUnit3Name() {
-        return unit3Name;
+    public String getUnit3_Name() {
+        return unit3_Name;
     }
 
-    public void setUnit3Name(String unit3Name) {
-        this.unit3Name = unit3Name;
+    public void setUnit3_Name(String unit3_Name) {
+        this.unit3_Name = unit3_Name;
     }
 
-    public String getUnit3Id() {
-        return unit3Id;
+    public String getUnit3_Id() {
+        return unit3_Id;
     }
 
-    public void setUnit3Id(String unit3Id) {
-        this.unit3Id = unit3Id;
+    public void setUnit3_Id(String unit3_Id) {
+        this.unit3_Id = unit3_Id;
     }
 
-    public String getUnit4Name() {
-        return unit4Name;
+    public String getUnit4_Name() {
+        return unit4_Name;
     }
 
-    public void setUnit4Name(String unit4Name) {
-        this.unit4Name = unit4Name;
+    public void setUnit4_Name(String unit4_Name) {
+        this.unit4_Name = unit4_Name;
     }
 
-    public String getUnit4Id() {
-        return unit4Id;
+    public String getUnit4_Id() {
+        return unit4_Id;
     }
 
-    public void setUnit4Id(String unit4Id) {
-        this.unit4Id = unit4Id;
+    public void setUnit4_Id(String unit4_Id) {
+        this.unit4_Id = unit4_Id;
     }
 
-    public String getUnit5Name() {
-        return unit5Name;
+    public String getUnit5_Name() {
+        return unit5_Name;
     }
 
-    public void setUnit5Name(String unit5Name) {
-        this.unit5Name = unit5Name;
+    public void setUnit5_Name(String unit5_Name) {
+        this.unit5_Name = unit5_Name;
     }
 
-    public String getUnit5Id() {
-        return unit5Id;
+    public String getUnit5_Id() {
+        return unit5_Id;
     }
 
-    public void setUnit5Id(String unit5Id) {
-        this.unit5Id = unit5Id;
+    public void setUnit5_Id(String unit5_Id) {
+        this.unit5_Id = unit5_Id;
     }
+
+    
+    
+    
+    
 }
