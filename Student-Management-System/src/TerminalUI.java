@@ -13,7 +13,7 @@ public class TerminalUI {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
-        // Prompt  the user   for their type of user
+        // Prompt  the user for their type of user
 
         int mainMenu=0;
         while(mainMenu!=808)
