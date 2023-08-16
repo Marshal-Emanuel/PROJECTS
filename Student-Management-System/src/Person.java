@@ -1,7 +1,7 @@
 /*public class Person {
     private String name;
     private String email;
-    private String password;        
+    private String password;       
 
     public Person(String name, String email, String password) {
         this.name = name;
