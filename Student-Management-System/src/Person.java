@@ -6,7 +6,8 @@
     public Person(String name, String email, String password) {
         this.name = name;
         this.email = email;
-        this.password = password;   
+        this.password = password;  
+        SUDOE APT UPDATE
     } 
 
     public String getName() {
