@@ -8,6 +8,8 @@
         this.email = email;
         this.password = password;  
         SUDOE APT UPDATE
+        sYSYTEM CONFIG
+        
     } 
 
     public String getName() {
