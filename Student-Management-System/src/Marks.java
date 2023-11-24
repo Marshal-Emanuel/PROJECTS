@@ -1,7 +1,7 @@
 import javax.print.DocFlavor.STRING;
 
 public class Marks {
-    private String regNo; 
+    private String regNo;
     private String programName;
     private String programId; 
     private String unit1Name;
